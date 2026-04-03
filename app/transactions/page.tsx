@@ -96,7 +96,7 @@ export default function Transactions() {
                   setTransactionToEdit(null);
                   setIsModalOpen(true);
                 }}
-                className="gap-2 bg-primary hover:bg-primary/90"
+                className="gap-2 bg-primary hover:bg-primary/90 text-primary-foreground"
               >
                 <Plus className="w-4 h-4" />
                 Add Transaction

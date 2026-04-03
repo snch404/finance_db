@@ -225,7 +225,7 @@ export function AddTransactionModal({
             </Button>
             <Button
               type="submit"
-              className="flex-1 bg-primary hover:bg-primary/90"
+              className="flex-1 bg-primary hover:bg-primary/90 text-primary-foreground"
             >
               {transactionToEdit ? 'Save Changes' : 'Add Transaction'}
             </Button>
